@@ -1,0 +1,336 @@
+/* Most CSS codes used throughout the website can be found here!! */
+
+@import url(https://fonts.googleapis.com/css?family=Bitter|Source+Code+Pro|Noto+Sans);
+
+.body {
+    background-color: rgb(243, 243, 243);
+    font-family: 'Noto Sans';
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    color:#fff;
+    text-decoration: none;
+}
+
+.buttonlink{
+  width:100px;
+  height:150px;
+  
+}
+
+.linkbleft {
+    color: #000;
+}
+.linkbright {
+    color: #fff;
+}
+
+/* navigation bar */
+.home{
+    position: relative;
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+}
+
+h1{
+  font-family: 'Bitter';
+  color:rgb(243, 243, 243);
+}
+
+h2{
+  font-family: 'Source Code Pro';
+  font-weight: 900;
+  font-size: 32px;
+  text-align: center;
+}
+
+.centerContent{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  width: 60%;
+}
+
+.homeh2{
+   font-family: 'Source Code Pro', ExtraBold;
+   align-items: center;
+   font-size: 36px;
+}
+
+.current {
+    align-items: center;
+    font-family: 'Source Code Pro', ExtraBold;
+    font-size: 30px;
+    margin: 10px;
+    background: none;
+    border:none;
+}
+
+.navLink {
+    align-items: center;
+    font-family: 'Source Code Pro', Light;
+    border:none;
+    width:auto;
+    height:auto;
+    color: #fff;
+    background: #000;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navLink:hover {
+    align-items: center;
+    border:none;
+    width:auto;
+    height:auto;
+    font-family: 'Source Code Pro', Light;
+    color: #000000;
+    background: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* style for columns seperating profiles */
+.cleft{
+    top:0px;
+    left:0px;
+    height:600px;
+    width:720px;
+    background: #3e3e3e;
+    color:#fff;
+}
+
+.cright{
+    top:0px;
+    left:0px;
+    height:600px;
+    width:720px;
+    background: #fff;
+    color: #3e3e3e;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+/* button styles */
+.buttonHome {
+    border-radius: 10px;
+    height:65px;
+    width: 154px;
+    font-family: 'Source Code Pro', Medium;
+    font-size: 24px;
+    margin: 30px;
+}
+
+.bLeft {
+    background: #fff;
+    color: #3e3e3e;
+}
+
+.bRight{
+    background: #3e3e3e;
+    color: #fff;
+}
+
+.bLeft:hover {
+    background: #fff;
+    color: #3e3e3e;
+    border:2px #000000;
+    box-shadow:-5px 5px #000;
+}
+
+.bRight:hover{
+    background: #3e3e3e;
+    color: #fff;
+    box-shadow:-5px 5px #000000;
+    border:2px #3e3e3e;
+}
+/*Containers for Profile Images*/
+.profileContainer{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px #252525;
+}
+
+.NickoProfile{
+  background: url(https://i.imgur.com/ktbnDFP.jpg) no-repeat;
+  background-position: 70% 10%;
+  background-size: 500px 500px;
+  background-size: 400px 400px;
+  box-shadow: -10px 7px #000000;
+}
+
+.questionHead{
+  font-family: 'Source Code Pro', Medium;
+  font-weight: 900;
+  font-size: 30px;
+  text-align:left;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  width: 90%;
+  margin-left: 30px;
+  line-height: 1cm;
+}
+
+.textbox {
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-color: #000;
+  border-width: 5px;
+  border-style:inherit;
+  background-color: #3e3e3e38;
+}
+
+  /*specific to Jaz's pages*/
+.Jazcolor {background: rgb(166, 108, 191);}
+  
+.colorWhite{color: #fff;}
+
+.Jazbutton {background: rgb(166, 108, 191);}
+  
+.Jazbutton:hover {background: #7dc391fc;}
+
+.JazProfile {
+    background: url("../Images/_DSC2842.jpg") center no-repeat;
+    background-size: 320px 400px;
+    box-shadow: -10px 7px #ffffff;
+  }
+
+.centerContainer {
+    width: auto;
+    height:auto;
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    align-items: center;
+  }
+
+.JazBg{background: url("https://i.imgur.com/jIVJznW.jpg") no-repeat center center fixed;} 
+
+.contentButtons {
+    width: 250px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: rgb(166, 108, 191);
+    box-shadow: -8px 10px #000000;
+    align-items: center;
+  }
+
+.clickedButton {
+    width: 250px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: #7dc391fc;
+    box-shadow: -8px 10px #000000;
+    align-items: center;
+  }
+
+.contentButtons:hover{
+    width: 250px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: #6b9d79fc;
+    box-shadow: -8px 10px #000000;
+    align-items: center;
+  }
+
+.contentBox {
+    border-radius: 10px;
+    border-color: #000000;
+    border-width: 10px;
+    width: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin: auto;
+    text-align: justify;
+    align-items: center;
+    background:  #7dc391fc;
+    box-shadow: -8px 10px #000000;
+  }
+
+  .tableSkills td,
+  th  {     
+  border-radius: 10px;
+  width: 570px;
+  border-radius: 10px;
+  border-collapse: separate;
+  padding: 5px;
+  margin: 10px;
+  text-align: left;
+  font-size: 20px;
+  max-width: fit-content;
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+  max-height: 150px;
+}
+
+th:nth-child(odd){
+  width:20%;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+th:nth-child(even){
+  padding-left: 20px; 
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(242, 229, 239, 0.418);
+  
+ }
+tr:nth-child(even) {
+  background-color: rgba(223, 209, 216, 0.35);
+
+}
+
+.icon {
+  width: auto;
+  height: auto;
+  max-width: 50px;
+}
